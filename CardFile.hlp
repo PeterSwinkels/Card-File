@@ -1,0 +1,67 @@
+1
+* Keys:
+-       <-/-> = Previous/next card.
+-      Delete = Remove a row of text.
+-      Escape = Open pulldownmenus/cancel.
+-      Insert = Paste copied/deleted row of text.
+- Control + C = Copy row of text.
+- Control + N = Enter caption for card.
+x
+2
+* Pulldownmenus:
+- [ File: ]
+-        New File = Start with a new file.
+-       Load File = Load a file.
+-       Save File = Save a file.
+-     Remove File = Remove a file.
+-     Print Cards = Print one or more cards.
+-            Quit = Quit Cardfile.
+- [ Options: ]
+-            Time = Turn time display on/off.
+-            Date = Turn date display on/off.
+- [ Card: ]
+- Number of Cards = Set the number of cards.
+- Erase Card Text = Remove the text from card.
+-    Card Caption = Enter a caption for a card.
+- [ Help: ]
+-    Display Help = Display help topics.
+-     Information = Display information about
+-                   Cardfile.
+x
+3
+* Error Messages:
+- [ Error Code ]
+-     0 =   Unknown error.
+-           An unexpected error occurred.
+-     1 =   Not enough memory.
+-           There is not enough memory
+-           for Cardfile to work.
+-     2 =   Bad file name.
+-           The file name is either too long
+-           or contains characters that are
+-           not allowed in a file name.
+-     3 =   Cannot find file.
+-           A file necessary for Cardfile
+-           to work or a file specified to be
+-           loaded could not be found.
+-     4 =   The disk is full.
+-           There is not enough space to
+-           save a file on the disk.
+-     5 =   Error while reading file.
+-           This can have the following causes:
+-           1 The file format is incompatible with Cardfile.
+-           2 There is an error in the file format.
+-           3 Part of the file is missing.
+-     6 =   Disk/file is write protected.
+-           The disk or file to which Cardfile attempted
+-           to write is write protected.
+-     7 =   No disk in diskdrive.
+-           Card file cannot write to
+-           or read from the disk.
+-     8 =   The disk is damaged.
+-           The disk contains bad clusters or
+-           the diskdrive might need to be cleaned.
+-     9 =   Cannot find directory.
+-           The specified directory
+-           could not be found.
+x
